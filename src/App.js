@@ -30,13 +30,7 @@ function App() {
 
   // state for the notes array
   const [notes, setNotes] = useState([
-    {
-      id: nanoid(),
-      userName: 'Osuji Nnamdi Daniel',
-      PhoneNumber: 2348058091098,
-      EmailAdd:'nnamdidanielosuji@gmail.com',
-      date:'12/3/2021'
-    },
+
   ])
 
   // function that grabs the value from the inputs. it will be passed as a prop to *Form component*
